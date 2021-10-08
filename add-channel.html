@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Commet-Chat</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div
+          style="
+            display: flex;
+            flex: 3;
+            justify-content: flex-end;
+            padding: 40px;
+            align-items: center;
+            margin-right: 15vw;
+          "
+        >
+          <div>
+            <i
+              class="far fa-clock clock"
+              style="
+                color: rgba(255, 255, 255, 0.6);
+                margin-right: 20px;
+                font-size: 18px;
+              "
+            ></i>
+          </div>
+          <div class="search-box" style="position: relative">
+            <i
+              class="fas fa-search"
+              style="
+                position: absolute;
+                left: 0;
+                padding: 20px;
+                color: rgba(255, 255, 255, 0.6);
+              "
+            ></i>
+            <input type="text" placeholder="Search tutorial-daltonic" />
+          </div>
+          <div>
+            <i
+              class="far fa-question-circle"
+              style="
+                color: rgba(255, 255, 255, 0.6);
+                margin-left: 20px;
+                font-size: 18px;
+              "
+            ></i>
+          </div>
+        </div>
+        <div style="justify-content: center">
+          <img src="./assets/images/v-shape.jpg" height="30px" />
+        </div>
+      </div>
+
+      <div style="display: flex">
+        <div class="sidebar">
+          <div class="header__part">
+            <hr />
+            <div class="header">
+              <h1 class="head-title">Cometchat (e)</h1>
+              <a href="" class="pen-icon">
+                <i class="fas fa-pen pen-icon-i"></i>
+              </a>
+            </div>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                padding: 0px 15px;
+              "
+            >
+              <div class="dot"></div>
+              <p style="font-size: 14px; color: white">Vikrant</p>
+            </div>
+            <hr />
+
+            <div style="display: flex; margin-top: 10px; padding: 0px 15px">
+              <span style="margin-right: 10px">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="rgba(255, 255, 255, 0.6)"
+                  class="bi bi-chat-right-text-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1z"
+                  />
+                </svg>
+              </span>
+              <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6)">
+                Thread
+              </p>
+            </div>
+
+            <div style="display: flex; align-items: center; padding: 0px 15px">
+              <span style="margin-left: -10px"
+                ><i
+                  class="fas fa-at"
+                  style="color: rgba(255, 255, 255, 0.6)"
+                ></i
+              ></span>
+              <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6)">
+                Mentions & Reactions
+              </p>
+            </div>
+
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                margin-left: 3px;
+                padding: 0px 15px;
+              "
+            >
+              <span style="margin-left: -10px"
+                ><i
+                  class="fas fa-ellipsis-v"
+                  style="color: rgba(255, 255, 255, 0.6)"
+                ></i
+              ></span>
+              <p
+                style="
+                  font-size: 12px;
+                  color: rgba(255, 255, 255, 0.6);
+                  margin-left: 8px;
+                "
+              >
+                More
+              </p>
+            </div>
+
+            <hr />
+            <div style="display: flex; align-items: center; padding: 0px 15px">
+              <span style="margin-left: -10px"
+                ><i
+                  class="fas fa-caret-down"
+                  style="color: rgba(255, 255, 255, 0.6)"
+                ></i
+              ></span>
+              <p
+                style="
+                  font-size: 12px;
+                  color: rgba(255, 255, 255, 0.6);
+                  margin-left: 2px;
+                "
+              >
+                Channel
+              </p>
+            </div>
+            <hr />
+            <div style="display: flex; align-items: center; padding: 0px 15px">
+              <span style=""
+                ><i
+                  class="fas fa-plus"
+                  style="color: rgba(255, 255, 255, 0.6)"
+                ></i
+              ></span>
+              <p
+                style="
+                  font-size: 12px;
+                  color: rgba(255, 255, 255, 0.6);
+                  margin-left: 2px;
+                "
+              >
+                <a href="add-channel.html"> Add Channel </a>
+              </p>
+            </div>
+            <hr />
+            <div style="display: flex; align-items: center; padding: 0px 15px">
+              <span style="margin-left: -10px"
+                ><i
+                  class="fas fa-caret-down"
+                  style="color: rgba(255, 255, 255, 0.6)"
+                ></i
+              ></span>
+              <p
+                style="
+                  font-size: 12px;
+                  color: rgba(255, 255, 255, 0.6);
+                  margin-left: 2px;
+                "
+              >
+                <a href="channel.html"> Direct Messages </a>
+              </p>
+            </div>
+            <hr />
+          </div>
+
+          <button class="btn">
+            <p class="btn-text">Logout</p>
+          </button>
+        </div>
+
+        <div class="box-container">
+          <div class="logo-box">
+            <img src="assets/images/logo.png" alt="logo" height="60px" />
+          </div>
+
+          <h1 class="channel-header">Add New Channel</h1>
+
+          <input type="text" placeholder="Channel Name" />
+
+          <div class="dropdown-input">
+            <input type="text" placeholder="Select Privacy" />
+            <i
+              class="fas fa-caret-down"
+              style="color: rgba(255, 255, 255, 0.6)"
+            ></i>
+          </div>
+
+          <button
+            style="
+              margin-top: 30px;
+              outline: none;
+              border: none;
+              border-radius: 5px;
+              background-color: #288d63;
+              padding: 10px 5px;
+              font-size: 14px;
+              font-weight: normal;
+              color: #fff;
+            "
+          >
+            Create Channel
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
